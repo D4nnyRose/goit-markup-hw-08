@@ -1,0 +1,17 @@
+.claints-title {
+  @include title-text(normal, bold, 36px, 1.16, center, 00.03em);
+
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    @include title-text(normal, bold, 28px, 1.17, center, 00.03em);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include title-text(normal, bold, 36px, 1.16, center, 00.03em);
+  }
+}
